@@ -4,8 +4,6 @@ public class PristupRovnakyPackage {
 
 	public static void main(String[] args) {
 
-		// pristup ku triede povoleny, hoci ma trieda package private pristup,
-		// pretoze tato trieda je v rovnakom package ako TriedaPackage
 		TriedaPackage p1 = new TriedaPackage();
 
 //		 p1.premennaPrivate = "nemozno pristupovat ku private clenu inej triedy";
@@ -17,8 +15,6 @@ public class PristupRovnakyPackage {
 		p1.premennaPublic = "ok"; // ok, ku public clenovi triedy mozno pristupovat odvsadial
 
 
-		// pristup povoleny, lebo pristupujeme ku public triede, ktora
-		// je viditelna odvsadial
 		TriedaPublic p2 = new TriedaPublic();
 		
 		// p2.premennaPrivate = "nemozno pristupovat ku private clenu inej triedy";
@@ -28,8 +24,6 @@ public class PristupRovnakyPackage {
 		p2.premennaProtected = "ok"; // ok, sme v tom istom package
 
 		p2.premennaPublic = "ok"; // ok, ku public clenovi triedy mozno pristupovat odvsadial
-
-
 
 	}
 

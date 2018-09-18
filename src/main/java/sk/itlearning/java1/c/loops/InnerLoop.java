@@ -13,9 +13,7 @@ public class InnerLoop {
 				if (arrayOfInts[j] == 9) {
 					break;
 				}
-
 				System.out.print(" " + i);
-
 			}
 
 			System.out.println(" pre cislo: " + arrayOfInts[j]);

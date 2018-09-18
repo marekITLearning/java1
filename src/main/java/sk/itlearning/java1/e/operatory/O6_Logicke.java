@@ -21,14 +21,6 @@ public class O6_Logicke {
 			System.out.println("s2 je null");
 		}
 
-		// logicka spojka AND so skratenym vyhodnocovanim vyrazu - vyhodnucuju sa zlava vyrazy
-		// dovtedy, kym je znamy vysledok vyrazu.
-		if (s2 != null && s2.length() > 0) { // teraz na tomto riadku programu chyba nenastane
-			System.out.println(s2.toUpperCase());
-		} else {
-			System.out.println("s2 je null");
-		}
-
 	}
 
 }

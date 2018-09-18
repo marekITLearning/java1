@@ -32,8 +32,4 @@ public class Jednorozmerne {
 
 	}
 
-	public String nieco() {
-		return "";
-	}
-
 }
