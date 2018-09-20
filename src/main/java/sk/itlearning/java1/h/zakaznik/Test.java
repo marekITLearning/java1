@@ -5,7 +5,7 @@ public class Test {
 	public static void main(String[] args) {
 
 		Obcan o1 = new Obcan("11", "Jozef");
-		Obcan o2 = new Obcan("22", "Jano");
+		Obcan o2 = new Obcan("11", "Jozef");
 		
 		Firma f1 = new Firma("1234", "IBM");
 		Firma f2 = new Firma("234", "Dell");
@@ -18,6 +18,15 @@ public class Test {
 			System.out.println(o.getId());
 		}
 	
+		System.out.println(o1 == o2);
+		
+		System.out.println(o1.equals(""));
+		
+		String s1 = "abc";
+		String s2 = "abc";
+		
+		System.out.println(s1 == s2);
+		
 	}
 
 }

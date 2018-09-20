@@ -36,8 +36,10 @@ public class PrimitivneTypy2 {
 
 		// znak @
 		// 0*16na3 + 0*16na2 + 4*16na1 + 0*16na0
-		char zero = '\u0040';
-		System.out.println(zero);
+		char at = 64;
+		at = '\u0040';
+		at = '@';
+		System.out.println(at);
 		
 		boolean bol = false;
 		System.out.println(bol);

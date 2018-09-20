@@ -21,7 +21,7 @@ public class PrimitivneTypy3 {
 		double d = f;
 
 		// implicitne pretypovania pri operaciach
-		System.out.println(10 / 3);
+		System.out.println(10 / 3.0);
 		System.out.println(i + d);
 
 		// od java 7 mozme pouzit oddelovac tisicov

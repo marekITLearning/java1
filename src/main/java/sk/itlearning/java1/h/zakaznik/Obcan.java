@@ -50,4 +50,11 @@ public class Obcan implements Zakaznik {
 		return getRodneCislo();
 	}
 	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Obcan) {
+			return rodneCislo.equals( ((Obcan)obj).getRodneCislo() );
+		}
+		return false;
+	}
 }
