@@ -57,4 +57,17 @@ public class Obcan implements Zakaznik {
 		}
 		return false;
 	}
+
+	@Override
+	public int hashCode() {
+		rodneCislo = rodneCislo.replace("/", "");
+		long rcc = Long.valueOf(rodneCislo);
+		return Long.valueOf(rcc/11).hashCode();
+	}
+
+	@Override
+	public String toString() {
+		return "Zakaznik; typ Obcan; RC = " + rodneCislo + "; Meno = " + meno;
+	}
+	
 }

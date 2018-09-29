@@ -13,11 +13,9 @@ class Viacrozmerne {
 		System.out.println();
 
 		for (String[] cc : names) {
-
 			for (String vv : cc) {
 				System.out.println(vv);
 			}
-
 		}
 
 	}
