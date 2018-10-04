@@ -10,22 +10,11 @@ public class Test {
 		Firma f1 = new Firma("1234", "IBM");
 		Firma f2 = new Firma("234", "Dell");
 		
-		Obcan[] po = {o1, o2};
-		
 		Zakaznik[] pob = {o1, o2, f1, f2, new Obec()};
 		
 		for (Zakaznik o : pob) {
 			System.out.println(o.getId());
 		}
-	
-		System.out.println(o1 == o2);
-		
-		System.out.println(o1.equals(""));
-		
-		String s1 = "abc";
-		String s2 = "abc";
-		
-		System.out.println(s1 == s2);
 		
 	}
 
