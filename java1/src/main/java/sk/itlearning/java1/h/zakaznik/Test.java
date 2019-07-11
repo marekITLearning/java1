@@ -13,7 +13,7 @@ public class Test {
 		Zakaznik[] pob = {o1, o2, f1, f2, new Obec()};
 		
 		for (Zakaznik o : pob) {
-			System.out.println(o.getId());
+			System.out.println(o);
 		}
 		
 	}
