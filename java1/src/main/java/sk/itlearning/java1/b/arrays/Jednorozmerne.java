@@ -1,5 +1,13 @@
 package sk.itlearning.java1.b.arrays;
 
+/**
+ * Tried v ktorej sa demonstruje zakladna praca s poliami
+ * 
+ * 
+ * 
+ * @author ladicky
+ *
+ */
 public class Jednorozmerne {
 
 	public static void main(String[] nazov) {
