@@ -1,4 +1,4 @@
-# JAVA1
+# JAVA 1
 
 Basics of java programming language.
 
