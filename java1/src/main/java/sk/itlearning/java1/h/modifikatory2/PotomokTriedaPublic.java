@@ -1,6 +1,6 @@
-package sk.itlearning.java1.i.modifikatory2;
+package sk.itlearning.java1.h.modifikatory2;
 
-import sk.itlearning.java1.i.modifikatory1.TriedaPublic;
+import sk.itlearning.java1.h.modifikatory1.TriedaPublic;
 
 public class PotomokTriedaPublic extends TriedaPublic {
 

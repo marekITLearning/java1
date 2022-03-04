@@ -18,13 +18,14 @@ package sk.itlearning.java1.a.konzola;
  *     <p>Vďaka možnosti použitia html kódu v komentári môžu byť tieto komentáre ľubovolne formátované.</p>
  *     <div>Formátovanie využívame hlavne kvôli sprehľadneniu komentára - dokumentácie.</div>
  *     <br/>
+ *     <img src="JRE.png">
  *   </body>
  * </html>
  *
  * @author Marek Ladický
  *
  */
-public class HelloJavaDoc {
+public class HelloDoc {
 
 	// Dve lomitka uvodzuju jednoriadkovy komentar.
 	public static void main(String[] args) {

@@ -1,6 +1,6 @@
 package sk.itlearning.java1.a.konzola;
 
-public class HelloArguments {
+public class HelloWorldArguments {
 
 	// program mozme spustit s 0 - n retazcovymi argumentmi
 	public static void main(String[] args) {

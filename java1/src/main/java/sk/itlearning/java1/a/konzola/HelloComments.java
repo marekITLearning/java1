@@ -5,7 +5,7 @@
 package sk.itlearning.java1.a.konzola;
 
 // V Jave sa musi kod, ktory sa ma vykonat, vzdy nachadzat v triede
-public class HelloWorld {
+public class HelloComments {
 
 	// spustit je mozne iba taky program, resp. taku triedu, ktora ma v sebe nasledovne definovanu metodu main
 	public static void main(String[] args) {

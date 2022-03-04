@@ -1,4 +1,4 @@
-package sk.itlearning.java1.h.zakaznik;
+package sk.itlearning.java1.g.zakaznik;
 
 public class Obec implements Zakaznik {
 

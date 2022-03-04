@@ -1,4 +1,4 @@
-package sk.itlearning.java1.i.modifikatory1;
+package sk.itlearning.java1.h.modifikatory1;
 
 public class PristupRovnakyPackage {
 

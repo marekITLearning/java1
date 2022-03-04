@@ -1,4 +1,4 @@
-package sk.itlearning.java1.g.rozmienacka;
+package sk.itlearning.java1.f.rozmienacka;
 
 public class Rozmienacka {
 
