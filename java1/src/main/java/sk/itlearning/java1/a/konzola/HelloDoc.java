@@ -11,19 +11,12 @@
 package sk.itlearning.java1.a.konzola;
 
 /**
- * <html><head><link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
- *   <style>p{font-family: 'Sofia'; font-size: 22px;} body{font-size: 18px;}</style></head>
- *   <body>
- *     <h2>Komentárom typu "javadoc" sa dokumentujú triedy a metódy.</h2>
- *     <p>Vďaka možnosti použitia html kódu v komentári môžu byť tieto komentáre ľubovolne formátované.</p>
- *     <div>Formátovanie využívame hlavne kvôli sprehľadneniu komentára - dokumentácie.</div>
- *     <br/>
- *     <img src="JRE.png">
- *   </body>
- * </html>
- *
- * @author Marek Ladický
- *
+ * <p>Tato trieda sluzi na</p>
+ *  
+ * <p>Obsahuje metody pre</p>
+ * 
+ * <p>Trieda je <b>immutable</b></p>
+ * 
  */
 public class HelloDoc {
 
