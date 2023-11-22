@@ -9,7 +9,7 @@ public class HelloComments {
 
 	// spustit je mozne iba taky program, resp. taku triedu, ktora ma v sebe nasledovne definovanu metodu main
 	public static void main(String[] args) {
-		System.out.println("Hello World!");
+		System.out.println("Hello World!!!");
 	}
 
 	/*
